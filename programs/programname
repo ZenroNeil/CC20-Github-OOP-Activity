@@ -3,6 +3,15 @@ package programs.programname;
 import java.util.Scanner;
 import ProgramInterface;
 
+/**
+     * MyDate class represents a date with year, month, and day.
+     * This program provides methods to manipulate and retrieve date information.
+     *
+     * @author Neil Nino Rozen N. Sudaria
+     * Description: MyDate class with various date manipulation methods It includes validation for dates, leap year calculations, and methods to
+       move to the next or previous day, month, or year. 
+     */
+
 public class MyDateCalendar implements ProgramInterface {
 
     public String getName() { return "My Date Calendar"; }
@@ -26,14 +35,7 @@ public class MyDateCalendar implements ProgramInterface {
             System.out.println("Error: " + e.getMessage());
         }
     }
-/**
-     * MyDate class represents a date with year, month, and day.
-     * This program provides methods to manipulate and retrieve date information.
-     *
-     * @author Neil Nino Rozen N. Sudaria
-     * Description: MyDate class with various date manipulation methods It includes validation for dates, leap year calculations, and methods to
-       move to the next or previous day, month, or year. 
-     */
+
     static class MyDate {
         // Instance variables to store year, month, and day
         private int year;
