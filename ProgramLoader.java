@@ -6,7 +6,7 @@ import core.ProgramInterface;
 import programs.fibonacci.FibonacciProgram;
 import programs.hanoi.HanoiProgram;
 import programs.palindrome.PalindromeProgram;
-
+import programs.mydatecalendar.MyDateCalendarProgram;
 // Loads all available programs.
 // Students only need to ADD ONE LINE per new program in getPrograms().
 public class ProgramLoader {
@@ -18,7 +18,7 @@ public class ProgramLoader {
         programs.add(new programs.fibonacci.FibonacciProgram());
         programs.add(new programs.hanoi.HanoiProgram());
         programs.add(new programs.palindrome.PalindromeProgram());
-        programs.add(new programs.programname.MyDateCalendar());
+        programs.add(new programs.mydatecalendar.MyDateCalendarProgram());
 
         // Example: programs.add(new programs.[folder].[ClassName]());
         // Only one line per new program.
